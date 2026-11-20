@@ -10,5 +10,11 @@
   },
   "posts/welcome/index.qmd": {
     "index.html": "beff561b"
+  },
+  "projects.qmd": {
+    "projects.html": "8226a7ed"
+  },
+  "resume.qmd": {
+    "resume.html": "7cda8c20"
   }
 }
