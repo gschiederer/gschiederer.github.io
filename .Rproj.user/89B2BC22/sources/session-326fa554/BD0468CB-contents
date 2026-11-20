@@ -3,16 +3,17 @@ project:
   output-dir: docs
 
 website:
-  description: "A blog built with Quarto"
-  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
   title: "GrantsRepo"
   navbar:
     right:
-      - about.qmd
+      - text: About
+        href: index.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: Resume
+        href: resume.qmd
       - icon: github
         href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
 format:
   html:
     theme:
